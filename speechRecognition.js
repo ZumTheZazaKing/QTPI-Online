@@ -461,7 +461,7 @@ recognition.addEventListener('result', e => {
 
     }
 
-    else if(transcript.includes('i want to eat')){
+    else if(transcript.includes('I want to eat')){
 
         if(e.results[0].isFinal){
 
